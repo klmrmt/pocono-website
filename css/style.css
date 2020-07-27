@@ -22,14 +22,7 @@ h5{
   width: 120px;
 }
 
-.headers{
-  /* : rgba(6,40,57,.42); */
-  background-image: linear-gradient(rgba(6,40,67,.7),rgba(6,40,67,.7)),url("../images/mountain.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-  padding-top: 10px;
-}
+
 .color{
   background-color: rgba(6,40,67,.7);
   margin: auto;
@@ -90,6 +83,12 @@ h5{
 #team{
   background-color: #FAFAFA !important;
   width: 100vw;
+}
+#head{
+  background-image: linear-gradient(rgba(6,40,67,.7),rgba(6,40,67,.7)),url("../images/mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .btn-primary:hover,
@@ -214,31 +213,13 @@ section .section-title {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .headers{
-    text-align: center;
+  .into{
+    margin-top: 15vh;
   }
-  /* .frontside .card,
-  .backside .card {
-      min-height: 200px;
-      margin-bottom: 12px;
-
-  } */
-
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .headers{
-    text-align: center;
-  }
-  .frontside .card,
-  .backside .card {
-      min-height: 220px;
-      margin-bottom: 12px;
-  }
-  .text-responsive{
-    padding-top: 35px;
-  }
 
 }
 
@@ -497,7 +478,7 @@ section .section-title {
 
 .cards {
     margin-bottom: 20px;
-    
+
     left:50%;
     transform:translate(-50%,0);
     width:300px;
